@@ -20,7 +20,7 @@ class AppKernel extends Kernel {
             // Sonata Bundles
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new Sonata\CoreBundle\SonataCoreBundle(),
-            new Sonata\BlockBundle\SonataBlockBundle()
+            new Sonata\BlockBundle\SonataBlockBundle(),            
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
